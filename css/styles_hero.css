@@ -57,6 +57,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-right: 1px solid #fcfcfc;
+    margin-left: -8px;
 }
 
 .grid-img-cont:not(:first-child)::before{
