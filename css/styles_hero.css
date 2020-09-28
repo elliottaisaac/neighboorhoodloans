@@ -26,9 +26,11 @@
     transition: transform 0.5s ease-in-out;
 
 }
+
 #hamburger svg:first-child{
     padding-top: 6px;
 }
+
 #hamburger svg:last-child{
     padding-bottom: 5px;
 }
@@ -152,6 +154,7 @@ h1 span::after{
 .grid-img-cont:nth-child(5){
     grid-area: 2 / 3 / 3 / 4;
 }
+
 .grid-img-cont:nth-child(5)::before{
     background-image: url("../img/img5.jpg");
     top: 273px;

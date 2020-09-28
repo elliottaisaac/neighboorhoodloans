@@ -34,6 +34,7 @@ main{
 .fact{
     width: 240px;
 }
+
 .fact:nth-child(2){
     transform: translateY(22px);
 }
@@ -115,6 +116,7 @@ main{
     left:-80px;
     text-align: center;
 }
+
 #how-we-do p::first-letter {
     font-size: 240%;
     letter-spacing: 1px;
@@ -135,9 +137,11 @@ main{
     width: 200px;
     cursor: pointer;
 }
+
 #how-we-do svg text:hover, #how-we-do svg text:active{
     font-weight: 600;
 }
+
 .active{
     fill: var(--green) !important;
     font-weight: 600 !important;
@@ -155,6 +159,7 @@ main{
     .fact{
         margin: auto;
     }
+    
     #how-we-do{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -163,6 +168,7 @@ main{
     #how-we-do svg{
         grid-row: 1 / 2;
     }
+
     #how-we-do h2{
         grid-row: 1 / 2;
         margin-bottom: 32px;
